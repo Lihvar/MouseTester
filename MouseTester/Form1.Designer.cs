@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.btnLeftClick = new System.Windows.Forms.Button();
             this.btnMiddleClick = new System.Windows.Forms.Button();
             this.btnRightClick = new System.Windows.Forms.Button();
@@ -38,10 +37,6 @@
             this.lblRightClick = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // printDialog1
-            // 
-            this.printDialog1.UseEXDialog = true;
             // 
             // btnLeftClick
             // 
@@ -152,8 +147,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PrintDialog printDialog1;
         private System.Windows.Forms.Button btnLeftClick;
         private System.Windows.Forms.Button btnMiddleClick;
         private System.Windows.Forms.Button btnRightClick;
